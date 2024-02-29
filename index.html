@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CellaVision Name Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <label for="nameInput">Enter a name:</label>
+        <input type="text" id="nameInput" name="nameInput" maxlength="15">
+        <button class="button" onclick="generateImages()">Generate Images</button>
+        <div id="imageContainer"></div>
+        <button class="button2" onclick="captureScreenshot()">Download Image</button>
+    </div>
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
+
+
