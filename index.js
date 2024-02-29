@@ -34,7 +34,7 @@ function captureScreenshot() {
             link.href = imageUrl;
             link.download = filename;
 
-            // Trigger download
+            // Trigger downloaded
             link.click();
         } else {
             console.error('Image URL is empty.');
